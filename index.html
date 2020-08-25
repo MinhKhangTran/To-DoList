@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do List</title>
+    <script
+      src="https://kit.fontawesome.com/48d84926e2.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <section class="section-center">
+      <!-- FORM -->
+      <form class="todo-form">
+        <h3>To Do Liste</h3>
+        <p class="alert"></p>
+        <div class="form-control">
+          <input type="text" id="todo" placeholder="todo item1" />
+          <button type="submit" class="submit-btn">
+            <i class="fas fa-plus"></i>
+          </button>
+        </div>
+      </form>
+      <!-- LIST -->
+      <div class="todo-container">
+        <div class="todo-list"></div>
+        <button class="clear-btn">Alle Einträge löschen</button>
+      </div>
+    </section>
+    <script src="./app.js"></script>
+  </body>
+</html>
